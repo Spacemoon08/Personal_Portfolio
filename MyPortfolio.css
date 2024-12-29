@@ -1,44 +1,71 @@
+/* Center the title element both horizontally and vertically */
 #title {
-    position: relative; /* Change from absolute to relative */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to center */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
+/* Style for buttons */
 .button {
     text-align: center;
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
-    width: 300px; /* Adjust the width as needed */
-    height: 150px; /* Adjust the height as needed */
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #065c348c;
 }
 
+/* Position button1 to the left */
 #button1 {
     left: 10%;
 }
 
+/* Center button2 horizontally */
 #button2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* Position button3 to the right */
 #button3 {
     right: 10%;
 }
 
+/* Style for the banner at the top */
 #banner {
     width: 100%;
-    height: 150px; /* Adjust the height as needed */
-    background-color: #000282; /* Indigo color for a premium feel */
-    color: #ffffff; /* White color for text to stand out against the indigo background */
+    height: 150px;
+    background: linear-gradient(to right, #000282, #4b6cb7);
+    color: #ffffff;
     text-align: center;
-    line-height: 150px; /* Adjust to match the height */
-    font-size: 2em; 
+    line-height: 150px;
+    font-size: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 
+/* Style for the footer banner */
+#footer-banner {
+    height: 150px;
+    background: linear-gradient(to right, #000282, #4b6cb7);
+    color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 150px;
+    font-size: 1.5em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Style for the body background and font */
 body {
-    background: linear-gradient(to right, #4425b3, #da8544); /* Gradient background */
-    font-family: Arial, sans-serif; /* Set a default font */
+    background:  #8ba3f5;
+    font-family: Arial, sans-serif;
 }
