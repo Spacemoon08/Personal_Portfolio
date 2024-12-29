@@ -1,0 +1,44 @@
+#title {
+    position: relative; /* Change from absolute to relative */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center */
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 300px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+}
+
+#button1 {
+    left: 10%;
+}
+
+#button2 {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#button3 {
+    right: 10%;
+}
+
+#banner {
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    background-color: #000282; /* Indigo color for a premium feel */
+    color: #ffffff; /* White color for text to stand out against the indigo background */
+    text-align: center;
+    line-height: 150px; /* Adjust to match the height */
+    font-size: 2em; 
+}
+
+body {
+    background: linear-gradient(to right, #4425b3, #da8544); /* Gradient background */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
